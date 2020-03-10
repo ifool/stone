@@ -142,14 +142,21 @@
   }
 }
 
+
 .page-content {
-  max-width: 100%;
-  padding-left: 30%;
+  // max-width: 100%;
+  width: 1200px;
+  margin: 0 auto;
+  // padding-left: 30%;
   border: 1px solid transparent;
   min-height: 500px;
 
+  #nav-header {
+    padding: 10px 60px 0 60px;
+    font-size: 1.2em;
+  }
   .wrapper {
-    padding: 30px 120px 30px 60px;
+    padding: 10px 60px 30px 60px;
     overflow: hidden;
   }
 }

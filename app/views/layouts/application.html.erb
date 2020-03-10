@@ -12,8 +12,11 @@
 
   <body>
     <div class="page-wrapper">
-      <%= render 'application/header' %>
+      <%#= render 'application/header' %>
       <main class="page-content" aria-label="Content">
+        <header id="nav-header">
+          <%= link_to '首页', '/' %>
+        </header>
         <div class="wrapper">
           <%= yield %>
         </div>
